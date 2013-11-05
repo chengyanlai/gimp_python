@@ -37,7 +37,7 @@ def function(img, layer, screen_opacity, overlay_opacity, base_color) :
     pdb.plug_in_colors_channel_mixer(img, overlay_layer, False, base_color, other_color, other_color, other_color, base_color, other_color, other_color, other_color, base_color)
     final_layer = pdb.gimp_image_merge_visible_layers(img, 0)
 register(
-    "ChenYen's Vivid",
+    "ChenYen-Vivid",
     "Color MIx",
     "Overlay and Screen Color Mix.",
     "Chenyen",
